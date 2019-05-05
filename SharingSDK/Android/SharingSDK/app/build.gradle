@@ -27,10 +27,10 @@ task makeJar(type:org.gradle.api.tasks.bundling.Jar) {
     baseName 'sharingSDK'
 
 //从哪里打包class文件
-    from('build/intermediates/classes/debug/com/example/retrofithttprequest')
+    from('build/intermediates/classes/release/com/share/sharingsdk')
 
 //打包到jar后的目录结构
-    into('com/example/retrofithttprequest/')
+    into('com/share/sharingsdk/')
 
 //去掉不需要打包的目录和文件
     exclude('R.class')
