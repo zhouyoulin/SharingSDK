@@ -1,0 +1,3 @@
+# SharingSDK
+SharingSDK的Android和iOS的实现，主要是母包工程以及各渠道SDK的接入。  
+本文档用于记录提交记录和一些问题的解决
