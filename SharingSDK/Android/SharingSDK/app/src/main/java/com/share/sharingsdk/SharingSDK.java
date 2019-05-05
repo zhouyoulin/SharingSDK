@@ -18,8 +18,13 @@ public class SharingSDK {
 
     private SharingListener sharingListener;
 
-    private SharingSDK(){
+    private String channel;
 
+    private String subChannel;
+
+    private SharingSDK(){
+        this.channel = "8888";
+        this.subChannel = "0";
     }
 
     public static SharingSDK getInstance(){
